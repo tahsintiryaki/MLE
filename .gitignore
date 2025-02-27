@@ -1,9 +1,19 @@
+# Binaries
 bin/
 obj/
-/packages/
-riderModule.iml
-/_ReSharper.Caches/
-.idea/
-.idea/*
+
+# Rider ve ReSharper için
 *.iml
-workspace.xml
+/.idea/
+/_ReSharper.Caches/
+
+# Paketler
+/packages/
+
+# Kullanıcı ve yapılandırma dosyaları
+.vscode/
+*.user
+*.suo
+*.cache
+*.log
+*.db
