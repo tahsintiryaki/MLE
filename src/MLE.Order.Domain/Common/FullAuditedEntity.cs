@@ -1,4 +1,5 @@
-namespace MLE.User.Domain.Common;
+
+namespace MLE.Order.Domain.Common;
 
 public class FullAuditedEntity : BaseEntity, IFullAuditedEntity
 {
