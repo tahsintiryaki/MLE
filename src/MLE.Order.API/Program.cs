@@ -1,3 +1,4 @@
+using FRINK.Core.Extensions;
 using MLE.Order.Application;
 using MLE.Order.Persistence;
 using MLE.Order.Persistence.Contexts;
@@ -11,6 +12,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddPersistenceService(builder.Configuration);
 builder.Services.AddApplicationServices();
+builder.Services.AddMessagingQueue(builder.Configuration);
 var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())
