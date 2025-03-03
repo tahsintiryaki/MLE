@@ -21,6 +21,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\MLE.IntegrationHandler\MLE.IntegrationHandler.csproj" />
       <ProjectReference Include="..\MLE.Order.Application\MLE.Order.Application.csproj" />
       <ProjectReference Include="..\MLE.Order.Domain\MLE.Order.Domain.csproj" />
       <ProjectReference Include="..\MLE.Order.Persistence\MLE.Order.Persistence.csproj" />
